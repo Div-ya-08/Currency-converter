@@ -1,0 +1,70 @@
+/* Base styles */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(135deg, #f0f4f8, #d9e2ec);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+/* Container */
+.converter-container {
+  background: #ffffff;
+  padding: 2rem 3rem;
+  border-radius: 20px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+  width: 320px;
+  text-align: center;
+}
+
+/* Title */
+.converter-container h2 {
+  margin-bottom: 1rem;
+  color: #333;
+}
+
+/* Input and select */
+.converter-container input,
+.converter-container select {
+  width: 100%;
+  padding: 0.8rem;
+  margin: 0.6rem 0;
+  font-size: 1rem;
+  border: 1px solid #ccd6dd;
+  border-radius: 10px;
+  outline: none;
+  transition: 0.3s ease;
+}
+
+.converter-container input:focus,
+.converter-container select:focus {
+  border-color: #0077ff;
+  box-shadow: 0 0 5px rgba(0, 119, 255, 0.3);
+}
+
+/* Button */
+.converter-container button {
+  width: 100%;
+  padding: 0.8rem;
+  margin-top: 1rem;
+  background: #0077ff;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.converter-container button:hover {
+  background: #005ecb;
+}
+
+/* Result */
+.converter-container .result {
+  margin-top: 1rem;
+  font-weight: bold;
+  color: #2c3e50;
+}
